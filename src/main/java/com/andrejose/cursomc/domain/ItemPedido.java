@@ -25,7 +25,6 @@ public class ItemPedido implements Serializable{
 
 	public ItemPedido(Pedido pedido, Produto produto, Double desconto, Integer quantidade, Double preco) {
 		super();
-		this.id = id;
 		id.setPedido(pedido);
 		id.setProduto(produto);
 		this.desconto = desconto;
